@@ -18,7 +18,12 @@ namespace Topic__2_numbers_and_math
             Console.WriteLine();
             Console.WriteLine("Now i will count the eggs");
             Console.WriteLine(11.0 / 2);
-
+            Console.WriteLine();
+            Console.WriteLine("Is it true that 3 + 2 < 5 - 7?");
+            Console.WriteLine(3 + 2 < 5 - 7);
+            Console.WriteLine("What is 3 + 2? " + (3 + 2));
+            Console.WriteLine("What is 5 - 7? " + (5 - 7));
+            Console.WriteLine("Oh, that's why it's " + (3 + 2 < 5 - 7));
         }
     }
 }
