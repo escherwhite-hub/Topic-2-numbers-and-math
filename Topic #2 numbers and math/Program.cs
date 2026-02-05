@@ -15,7 +15,6 @@ namespace Topic__2_numbers_and_math
             Console.WriteLine("6" + 6);
             Console.WriteLine(6 + 6);
             Console.WriteLine();
-            Console.WriteLine();
             Console.WriteLine("Now i will count the eggs");
             Console.WriteLine(11.0 / 2);
             Console.WriteLine();
@@ -24,6 +23,17 @@ namespace Topic__2_numbers_and_math
             Console.WriteLine("What is 3 + 2? " + (3 + 2));
             Console.WriteLine("What is 5 - 7? " + (5 - 7));
             Console.WriteLine("Oh, that's why it's " + (3 + 2 < 5 - 7));
+            Console.WriteLine();
+            Console.WriteLine("The amount of money earned for working 8 hours at $21 an hour is " + (8 * 21).ToString("C"));
+            Console.WriteLine();
+            Console.WriteLine("The cost of an egg if a dozen costs $6 is " + (6.0 / 12.0).ToString("C"));
+            Console.WriteLine();
+            Console.WriteLine("The tax on a $79.99 item would be " + (79.99 * 0.13).ToString("C"));
+            Console.WriteLine();
+            Console.WriteLine("There are " + (5 * 12 + 6) + " inches in 5'6\"");
+            Console.WriteLine();
+            Console.WriteLine("There are " + (5 * 12 + 6) * 2.54 + " centimeters in 5'6\"");
+
         }
     }
 }
